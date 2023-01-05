@@ -254,14 +254,11 @@
     grid-column-gap: 10px;
     grid-row-gap: 5px;
 }
-.video-wrapper{
-    
-}
-.img-wrapper{
-
-}
 .img-wrapper img{
     width: 300px;
+}
+.video-wrapper video{
+    width: 600px;
 }
 .text-wrapper{
     margin-top: 20px;
@@ -454,6 +451,9 @@
 .fifth-grid-sidebar { grid-area: sidebar; background-color: #ccc; }
 .fifth-grid-content { grid-area: content; background-color: #eee; }
 .fifth-grid-footer { grid-area: footer; background-color: #bbb; }
+.grid-header{
+    margin: 10px 30%;
+}
 /* Keyframes */
 @-webkit-keyframes fill {
     0% {
@@ -471,7 +471,6 @@
     }
   }
   
-  /* Keyframes */
   @-webkit-keyframes circle {
     0% {
       width: 1px;
@@ -497,4 +496,200 @@
       margin: auto;
       border-radius: 0;
     }
+}
+
+@media (max-width: 1199px){ 
+    .docs-text-wrapper{
+        margin: 5px 15%;
+    }
+    .first-grid-container {
+        margin: 5px 15%;
+    }
+    .second-grid-container {
+        margin: 5px 15%;
+    }
+    .third-grid-container {
+        margin: 5px 15%;
+    }
+    .fourth-grid-container {
+        margin: 5px 15%;
+    }
+    .fifth-grid-container {
+        margin: 5px 15%;
+    }
+    .grid-header{
+        margin: 5px 15%;
+    }
+}
+
+@media (max-width: 991px){ 
+    .sidebar {
+        display: none;
+    }
+    .services-table-text{
+        font-size: 11pt;
+    }
+    .header-wrapper{
+        margin: 5px 15%;
+    }
+    .content{
+        margin: 5px 15%;
+    }
+    .footer{
+        margin: 5px 15%;
+    }
+    .prices-wrapper{
+        margin: 5px 15%;
+    }
+    
+}
+
+@media (max-width: 767px){ 
+    .services-table td{
+        width: 150px;
+        height: 100px;
+    }
+    .services-table-icon-wrapper{
+        height: 100px;
+        margin-bottom: 5px;
+    }
+    .services-table-icon {
+        max-width: 100px;
+        max-height: 100px;
+        margin-top: -30px;
+    }
+    .img-wrapper img{
+        width: 200px;
+    }
+    .video-wrapper video{
+        width: 410px;
+    }
+    .carousel-wrapper {
+        margin: 0;
+        transform: scale(0.8);
+    }
+    .docs-text-wrapper{
+        margin: 5px 5%;
+    }
+    .docs-text-wrapper{
+        margin: 5px 5%;
+    }
+    .first-grid-container {
+        margin: 5px 5%;
+    }
+    .second-grid-container {
+        margin: 5px 5%;
+    }
+    .third-grid-container {
+        margin: 5px 5%;
+    }
+    .fourth-grid-container {
+        margin: 5px 5%;
+    }
+    .fifth-grid-container {
+        margin: 5px 5%;
+    }
+    .grid-header{
+        margin: 5px 5%;
+    }
+}
+
+@media (max-width: 575px){
+    .header-contacts{
+        font-size: 11pt;
+    }
+    .header-second-row button{
+        font-size: 9pt;
+        border: solid 1px rosybrown;
+        margin-bottom: 5px;
+        border-radius: 6px;
+        min-height: 20px;
+        min-width: 80px;
+        padding: 3px 15px;
+    }
+    .header-first-row img{
+        margin-left: -5%;
+        width: 200px;
+        height: 70px;
+    }
+    .carousel-wrapper {
+        margin: -100px;
+        transform: scale(0.6);
+    }
+    .img-wrapper img{
+        width: 150px;
+    }
+    .video-wrapper video{
+        width: 310px;
+    }
+    .prices-text {
+        width: auto;
+        height: 200px;
+        overflow: auto;
+    }
+    .prices-wrapper{
+        margin: 5px 5%;
+    }
+    .prices-image-1 {
+        width: 150px;
+    }
+    .prices-image-2 {
+        width: 150px;
+    }
+    .prices-image-3 {
+        width: 150px;
+    }
+    .first-grid-container {
+        display: none;
+    }
+    .second-grid-container {
+        display: none;
+    }
+    .third-grid-container {
+        display: none;
+    }
+    .fourth-grid-container {
+        display: none;
+    }
+    .fifth-grid-container {
+        display: none;
+    }
+    .grid-header{
+        display: none;
+    }
+    .docs-text-wrapper{
+        flex-direction: column;
+    }
+ }
+ @media (max-width: 444px){
+    .services-table-text{
+        font-size: 11pt;
+    }
+    .header-contacts{
+        font-size: 9pt;
+    }
+    .header-wrapper{
+        margin: 5px 5%;
+    }
+    .content{
+        margin: 5px 5%;
+    }
+    .footer{
+        margin: 5px 5%;
+        font-size: 9pt;
+    }
+    .services-table td{
+        width: 120px;
+        height: 70px;
+    }
+    .services-table-icon-wrapper{
+        height: 70px;
+        margin-bottom: 5px;
+    }
+    .services-table-icon {
+        max-width: 70px;
+        max-height: 70px;
+        margin-top: -20px;
+    }
+    
 }
