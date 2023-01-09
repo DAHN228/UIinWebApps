@@ -70,6 +70,7 @@
     flex-direction: column;
     margin: 0 30%;
 }
+
 .carousel-wrapper{
     box-sizing: border-box;
     font-family: sans-serif;
@@ -184,6 +185,10 @@
 }
 .services-table{
     margin: 2% 0;
+    border-collapse: collapse;
+    border: none;
+    empty-cells: hide;
+    table-layout: auto;
 }
 .services-table tr{
     height: 100px;
@@ -192,6 +197,8 @@
     width: 250px;
     height: 100px;
     padding: 2%;
+    vertical-align: middle;
+    text-align: center;
 }
 .services-table-icon-wrapper{
     height: 200px;
@@ -288,6 +295,12 @@
     margin: 10px 30% 10px 30%;
     display: block;
 }
+.prices-wrapper p{
+    text-indent: 50px;
+}
+.prices-wrapper h2+h4{
+    text-decoration: underline;
+}
 .prices-image-1{
     width: 200px;
     float: left;
@@ -311,13 +324,25 @@
     border-right: solid 1px black;
     box-sizing: border-box;
 }
+.sidebar h5{
+    text-transform: uppercase;
+}
 .docs-text-wrapper{
     display: flex;
     margin: 10px 30% 10px 30%;
 }
+.docs-text  > p {
+    font-size: 14pt;
+}
 .docs-text{
     flex: 1;
     padding: 0 10px 0 10px;
+}
+.note{
+    outline: black dashed 1px;
+}
+.note p{
+    line-height: 150%;
 }
 .first-grid-container {
     margin: 10px 30% 10px 30%;
